@@ -41,7 +41,7 @@ const UserInfo = () => {
 
             toast.success("Password changed successfully!")
         } catch {
-            toast.error("Failed to update password!")
+            toast.error("Failed to update password !")
         }
     }
 
